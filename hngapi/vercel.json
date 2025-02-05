@@ -1,0 +1,12 @@
+{
+    "builds": [{
+        "src": "hngapi/wsgi.py",
+        "use": "@vercel/python"
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "hngapi/wsgi.py"
+        }
+    ]
+}
