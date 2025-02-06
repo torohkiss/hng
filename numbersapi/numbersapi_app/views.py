@@ -85,5 +85,6 @@ def number_details(request):
                 "error": True,
                 "number": request.GET.get('number')
             },
-            status=400
+            status=400,
+            json_dumps_params={'indent': 4}
         )
