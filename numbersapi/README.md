@@ -8,6 +8,6 @@ It also provides page for error handling incase of bad request.
 
 The api was created using the Python Django framework with response form being JSON.
 
-EXAMPLE USAGE ENDPOINT -- "https://numbersapi.vercel.app/api/number_details/?number=677"
+EXAMPLE USAGE ENDPOINT -- **"https://numbersapi.vercel.app/api/number_details/?number=677"**
 
-Backline -- "https://hng.tech/hire/python-developers"
+Backline -- **"https://hng.tech/hire/python-developers"**
