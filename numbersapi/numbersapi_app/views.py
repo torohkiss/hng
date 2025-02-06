@@ -37,7 +37,7 @@ def get_fun_fact(n):
     except:
         return f"{n} is an interesting number with various mathematical properties."
 
-def numbers_details(request):
+def number_details(request):
     if request.method != 'GET':
         return JsonResponse(
             {
@@ -77,7 +77,7 @@ def numbers_details(request):
             "fun_fact": get_fun_fact(number)
         }
 
-        return JsonResponse(response_data)
+        return JsonResponse(response_data, json_dumps_params={'indent': 4})
 
     except ValueError:
         return JsonResponse(
